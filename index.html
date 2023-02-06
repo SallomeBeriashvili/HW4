@@ -13,9 +13,9 @@
     <header>
         <nav class="header">
             <ul class="row list-style">
-                <li class="nav-item"><a href="#">home</a></li>
-                <li class="nav-item"><a href="#">about</a></li>
-                <li class="nav-item"><a href="#">contact</a></li>
+                <li class="nav-item"><a href="#banner">home</a></li>
+                <li class="nav-item"><a href="#about-us">about</a></li>
+                <li class="nav-item"><a href="#contact">contact</a></li>
             </ul>
         </nav>
     </header>
@@ -28,40 +28,106 @@
                 </div>
             </div>
             <div class="col-6">
-                <img src="./src/images/s.jpg">
+                <img src="./src/images/starbucks.jpg">
             </div>
         </div>
     </section>
     <section id="about-us">
-        <div>
-            <div><img></div>
-            <div><img></div>
-            <div><img></div>
+        <div class="row">
+            <h1 class="about-header">About Us</h1>
         </div>
+        <div class="row">
+            <div class="col-3 row align-center">
+                <div class="image-container">
+                    <img src="./src/images/drink.jpg">
+                    <p>
+                        Starbucks drinks
+                    </p>
+                </div>
+            </div>
+            <div class="col-3 row align-center">
+                <div class="image-container">
+                    <img src="./src/images/food.jpg">
+                    <p>
+                        Starbucks food
+                    </p>
+                </div>
+            </div>
+            <div class="col-3 row align-center">
+                <div class="image-container">
+                    <img src="./src/images/at home.webp">
+                    <p>
+                        At Home
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="about-us-texts">
+            <p class="main-sentence">
+                It happens millions of times each week - a customer receives a drink from <br>
+                a Starbucks barista - but each interaction is unique.<br>
+            </p>
+            &nbsp;
+            <p>
+                It's just a moment in time - just one hand reaching over the counter to <br>
+                present a cup to another outstretched hand.<br>
+            </p>
+            &nbsp;
+            <p>
+                But it's a connection.<br>
+            </p>
+            &nbsp;
+            <p>
+                We make sure everything we do honours that connection - from our commitment<br>
+                to the highest quality coffee in the world, to the way we engage with our<br>
+                customers and communities to do business responsibly.<br>
+            </p>
+            &nbsp;
+            <p>
+                From our beginnings as a single store nearly forty years ago, in every place that<br>
+                we've been, and every place that we touch, we've tried to make it a little better<br>
+                than we found it.<br>
+            </p>
+        </div>
+        <div class="row">
+            <h1 class="about-contact">Contact Us</h1>
+        </div>
+
     </section>
     </section>
     <section id="contact">
-        <div>
+        <div class="row">
             <form>
-                <input>
-                <input>
-                <input>
+                <div class="input-container">
+                    <input type="text" placeholder="Enter your first name">
+                    <input type="text" placeholder="Enter your last name">
+                </div>
+                <div class="input-container">
+                    <input type="text" placeholder="Enter your phone number">
+                    <input type="email" placeholder="Enter your email">
+                </div>
+                <div class="row textarea-container">
+                    <textarea type="text" placeholder="Tell us what's on your mind..."></textarea>
+                </div>
+                <div class="row">
+                    <button class="btn">Contact Us</button>
+                </div>
             </form>
         </div>
     </section>
     <footer>
         <div>
-            <nav>
-                <ul>
-                    <li><a>home</a></li>
-                    <li><a>about</a></li>
-                    <li><a>contact</a></li>
+            <nav class="header">
+                <ul class="row list-style">
+                    <li class="nav-item"><a href="#">home</a></li>
+                    <li class="nav-item"><a href="#">about</a></li>
+                    <li class="nav-item"><a href="#">contact</a></li>
                 </ul>
             </nav>
         </div>
-        <div>
+        <div class="row footer-copyright">
             <p><a href="./pdf">სალიცენზიო შეთანხმება</a>
-                Copyright © 2023 <a href="/github">Salome Beriashvili</a>
+                <span class="Copyright">Copyright © 2023</span><a href="/github">Salome Beriashvili</a>
             </p>
         </div>
     </footer>
